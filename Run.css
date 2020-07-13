@@ -1,0 +1,303 @@
+html{
+
+
+background-image: url("img\71.jpg");
+}
+
+
+
+
+
+body{
+     margin-top: 30px;
+	//background:#EBEBEB;
+          
+	font-family: sans-serif;
+	position: relative;
+    
+	left: 10%;
+	right: 10%;
+    
+}
+
+
+
+header{
+     
+
+	background-color:	hsl(162, 47%, 36%);
+
+	height: 150px;
+	width: 76.5%;
+	/*margin-left:10%;*/
+	/*margin-right: 10%;*/
+    border-radius: 4px;
+
+}
+
+header h1{
+	color: white;
+	margin-left: 4%;
+	margin-top: 10px;
+	text-shadow: 5px 5px 10px yellow;
+
+        
+}
+
+/*Specific ids selectors */
+
+#pkr{
+color: white;
+	
+}
+
+
+
+#Description{
+
+ 
+	background-color:rgb(15, 175, 255);
+	background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+}
+
+#participation{
+
+	background-color: hsl(162, 47%, 36%);
+}
+
+#winnerrevard{
+
+background-color: rgb(255, 170, 66);
+}
+
+
+#runningstuff{
+
+text-shadow : 5px 5px 10px orange;
+}
+
+#sectionid{
+
+margin-left: 50px;
+}
+
+#manual{
+
+	background: rgb(237, 214, 126);
+}
+
+/*navigation section*/
+nav{
+	background-color: rgb(8, 92, 145);
+	height: 40px;
+	width: 76.5%;
+	/*margin-left:10%;*/
+	/*margin-right: 10%;*/
+	padding:.1px;
+
+
+}
+
+nav ul li {
+list-style: none;
+display: inline;
+
+
+}
+nav li a {
+text-decoration: none;
+margin:100px;
+color: white;
+font-size: 15px;
+text-shadow: 5px 5px 10px yellow;
+		
+
+}
+nav ul li :hover{
+
+color:black;
+
+}
+
+nav ul li a:hover{
+-webkit-transition:all 0.6s;
+transition:all 0.6s;
+background:white;
+}
+
+
+/* section */
+
+
+.sec1{
+
+
+
+width: 76.3%;
+height: 100%;
+/*margin-left: 10%;*/
+/*margin-right: 10%;*/
+border: 1px solid black;
+
+text-align: justify;
+
+}
+
+
+.sec1 form table {
+
+border: 1px solid red;
+	padding: 15px;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: -140px;
+	
+}
+
+
+
+
+.sec1 form table td{
+
+
+
+position: relative;
+}
+
+.sec1 form{
+
+	position: absolute;
+	left: 40%;
+	top:24%;
+}
+
+
+.login{
+
+position: absolute;
+top:12%;
+left: 41%;
+
+
+
+} 
+
+
+
+.sec3{
+
+width:450px;
+height: 600px;
+background: #fafafa;
+}
+
+
+
+.login table{
+
+    padding: 15px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+header button{
+
+background-color: hsl(1, 75%, 56%);
+color: white;
+width: 200px;
+height: 50px;
+
+font-size: 20px;
+border-radius: 10px;
+
+position: absolute;
+left: 60%;
+top:7%;
+border: 2px solid white;
+
+}
+header button a{
+text-decoration: none;
+color:white;
+
+}
+
+header button:hover{
+    cursor: pointer;
+	
+}
+
+
+header button span:after {
+  content: ' >>';
+  
+  opacity: 0;
+
+  right: -20px;
+  transition: 0.5s;
+}
+
+header button:hover span {
+  padding-right: 25px;
+}
+
+header button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Aside bar*/
+
+
+aside{
+
+/*margin-left: 10%;*/
+/*margin-right: 10%;*/
+height: 61.5%;
+width: 17%;
+border: 1px solid black;
+position: absolute;
+left: 59.2%;
+
+top:18.7%;
+text-align: justify;
+border-radius: 4px;
+
+
+
+}
+
+/*Footer*/
+
+footer{
+
+background-color: hsl(162, 47%, 36%);
+
+width: 76.5%;
+padding:.1px;
+height: 200px;
+border-radius: 4px;
+}
+footer a{
+
+color:white;
+text-decoration: none;
+font-size: 20px;
+font-family: sans-serif;
+text-shadow: 5px 5px 10px yellow;
+
+
+}
+
+footer  ul li {
+
+list-style-type: none;
+
+
+}
+
+
+
+
